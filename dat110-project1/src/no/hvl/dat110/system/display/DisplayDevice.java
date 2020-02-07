@@ -11,7 +11,7 @@ public class DisplayDevice {
 		
 		System.out.println("Display server starting ...");
 		
-		// TODO
+		// TODO ferdig
 		// implement the operation of the display RPC server
 		// see how this is done for the sensor RPC server in SensorDevice
 		

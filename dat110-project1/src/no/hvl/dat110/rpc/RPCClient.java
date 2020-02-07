@@ -19,14 +19,14 @@ public class RPCClient {
 	
 	public void connect() {
 		
-		// TODO: connect using the underlying messaging layer connection
+		// TODO: ferdig, connect using the underlying messaging layer connection
 		this.connection = msgclient.connect();
 					
 	}
 	
 	public void disconnect() {
 		
-		// TODO: disconnect/close the underlying messaging connection
+		// TODO: ferdig, disconnect/close the underlying messaging connection
 		
 		this.connection.close();
 		
@@ -36,7 +36,7 @@ public class RPCClient {
 		
 		byte[] rpcreply;
 		
-		/* TODO: 
+		/* TODO:  ferdig
 		
 		Make a remote call on the RPC server by sending the RPC request message
 		and receive an RPC reply message

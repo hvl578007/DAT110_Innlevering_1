@@ -39,7 +39,7 @@ public class RPCServer {
 		
 			int rpcid;
 			
-			// TODO
+			// TODO ferdig
 			// - receive message containing RPC request
 			// - find the identifier for the RPC methods to invoke
 			// - lookup the method to be invoked

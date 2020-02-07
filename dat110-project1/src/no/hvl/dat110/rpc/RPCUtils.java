@@ -24,7 +24,7 @@ public class RPCUtils {
 		for (int i = 0; i < strByte.length; i++) {
 			encoded[i+1] = strByte[i];
 		}
-		// TODO: marshall RPC identifier and string into byte array
+		// TODO: ferdig, marshall RPC identifier and string into byte array
 
 		return encoded;
 	}
@@ -33,7 +33,7 @@ public class RPCUtils {
 
 		String decoded;
 
-		// TODO: unmarshall String contained in data into decoded
+		// TODO: ferdig, unmarshall String contained in data into decoded
 
 		decoded = new String(data, 1, data.length-1);
 

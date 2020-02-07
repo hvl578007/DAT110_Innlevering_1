@@ -28,7 +28,7 @@ public class MessagingServer {
 
 		Connection connection = null;
 
-		// TODO
+		// TODO ferdig
 		// accept TCP connection on welcome socket and create messaging connection
 		Socket serverSocket = null;
 		try {

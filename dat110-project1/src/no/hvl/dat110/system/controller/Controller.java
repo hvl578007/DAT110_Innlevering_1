@@ -40,7 +40,7 @@ public class Controller {
 		displayclient.register(stopdisplay);
 		sensorclient.register(stopsensor);
 
-		// TODO:
+		// TODO: ferdig
 		// loop while reading from sensor and write to display via RPC
 
 		for (int i = 0; i < N; i++) {
@@ -50,7 +50,6 @@ public class Controller {
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}

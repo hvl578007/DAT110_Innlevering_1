@@ -15,7 +15,7 @@ public class DisplayImpl implements RPCImpl {
 		byte[] reply;
 		byte rpcid;
 		
-		// TODO: 
+		// TODO: ferdig
 		// implement unmarshalling, call, and marshall for write RPC method
 		// look at how this is done int he SensorImpl for the read method
 		
@@ -26,11 +26,7 @@ public class DisplayImpl implements RPCImpl {
 		rpcid = request[0];
 
 		reply = RPCUtils.marshallVoid(rpcid);
-		if (true) {
-			throw new UnsupportedOperationException(TODO.method());
-
-		}
-		
+				
 		return reply;
 	}
 }

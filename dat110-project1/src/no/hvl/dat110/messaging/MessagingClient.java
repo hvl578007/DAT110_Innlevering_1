@@ -29,7 +29,7 @@ public class MessagingClient {
 
 		Connection connection = new Connection(clientSocket);
 
-		// TODO
+		// TODO ferdig
 		// create TCP socket for client and connection
 		// create connection object
 

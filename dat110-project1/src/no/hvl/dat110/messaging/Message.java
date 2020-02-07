@@ -13,6 +13,7 @@ public class Message {
 			//throw new Exception("for stor payload");
 		}
 		this.payload = payload; // TODO: check for length within boundary
+		//kaste exception? lagar litt trøbbel andre plassar..
 	}
 
 	public Message() {
